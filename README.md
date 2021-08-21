@@ -1,4 +1,4 @@
-# Instagram Part 1 Debugging Challenge
+# Instagram Part 2 Debugging Challenge
 
 Don't be afraid to review projects you have made if you are struggling.
 
@@ -65,10 +65,11 @@ Don't be afraid to review projects you have made if you are struggling.
 
 
 # Hints
-* Are we using the correct permissions?
-* Are our views set up properly?
-* When launching an intent, is it going to MainActivity?
-* What parameters are we passing when trying to login?
-* Using the correct authority for when creating the URI?
-* Are we launching the activity after we get the image?
-
+* Are we referencing the correct fragment?
+* Did we initialize the List?
+* Did you limit the number of posts correctly?
+* Notified the adapter?
+* When you querried the posts, did you add them to the array list?
+* Are our constants in the Post model correct?
+* The size of the returned list is 0?
+* Check the item XML
